@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Laado! 🎉🎂</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <audio id="bg-music" loop>
+        <source src="happy-birthday.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+        <h1>🎉 Happy Birthday, Laado! 🎂</h1>
+        <p>You're the most special person in my life, and today is all about celebrating *you*! 💖</p>
+
+        <button onclick="showMessage()">Click for a Surprise 🎁</button>
+        <div id="hidden-message" class="hidden">
+            <p>💌 *Dear Laado,* <br> You make my world brighter every day! I wish you all the happiness in the universe! 🎈🎂</p>
+        </div>
+
+        <button onclick="showCake()">Cut Your Cake 🍰</button>
+        <div id="cake" class="hidden">
+            <img src="cake.png" alt="Birthday Cake">
+            <p>🎶 Make a wish and blow the candles! 🎶</p>
+        </div>
+
+        <button onclick="playMusic()">Play Background Music 🎵</button>
+    </div>
+
+    <div class="confetti"></div>
+</body>
+</html>
